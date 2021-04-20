@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kokeilua</title>
+</head>
+<body>
+
+    <script>
+        var x = prompt ("Mikä on ensimmäinen luku?");
+        var y = prompt ("Mikä on toinen luku?");
+        var lasku =prompt ("Minkälainen lasku lasketaan?")   
+        if (lasku == "summa"){
+        var summa = Number(x) + Number(y);
+        alert("Selvitämme lukujen x ja y summa")
+        alert(summa)
+        } if (lasku == "erotus"){
+        var erotus = x - y;
+        alert("Selvitämme lukujen x ja y erotus")
+        alert(erotus)
+        } if (lasku == "tulo"){
+        var tulo = x * y;
+        alert("Selvitämme lukujen x ja y tulo")
+        alert(tulo)
+        } else if (lasku == "osamäärä"){
+        var osamäärä = x / y;
+        alert("Selvitämme lukujen x ja y osamäärä")
+        alert(osamäärä)
+        }
+    </script>
+</body>
+</html>
